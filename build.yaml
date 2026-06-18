@@ -1,11 +1,13 @@
 include:
-  # Sofle left with oled display
-  - board: nice_nano_v2
+# Sofle without dongle 不带dongle的Sofle
+  # Sofle with oled display(with nice_oled module) 适用于带oled的Sofle
+  - board: nice_nano_v2 
     shield: Sofle_L nice_oled
-    snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart 
     artifact-name: Sofle_left_oled
-
-  # Sofle right with oled display
   - board: nice_nano_v2
     shield: Sofle_R nice_oled
     artifact-name: Sofle_right_oled
+ 
+  - board: nice_nano_v2
+    shield: settings_reset
