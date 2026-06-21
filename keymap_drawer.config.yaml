@@ -1,0 +1,170 @@
+draw_config:
+  n_columns: 1
+  split_gap: 30.0
+  append_colon_to_layer_header: true
+
+parse_config:
+  mark_alternate_layer_activators: true
+  trans_legend:
+    tap: ▽
+    type: trans
+
+  # Defaults from keymap-drawer config.py, with tap+shifted for US QWERTY keys.
+  # See: https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py
+  zmk_keycode_map:
+    # --- digits (base layer) ---
+    N1: { tap: "1", shifted: "!" }
+    N2: { tap: "2", shifted: "@" }
+    N3: { tap: "3", shifted: "#" }
+    N4: { tap: "4", shifted: "$" }
+    N5: { tap: "5", shifted: "%" }
+    N6: { tap: "6", shifted: "^" }
+    N7: { tap: "7", shifted: "&" }
+    N8: { tap: "8", shifted: "*" }
+    N9: { tap: "9", shifted: "(" }
+    N0: { tap: "0", shifted: ")" }
+
+    # --- punctuation (base layer) ---
+    GRAVE: { tap: "`", shifted: "~" }
+    MINUS: { tap: "-", shifted: "_" }
+    EQUAL: { tap: "=", shifted: "+" }
+    LBKT: { tap: "[", shifted: "{" }
+    RBKT: { tap: "]", shifted: "}" }
+    BSLH: { tap: "\\", shifted: "|" }
+    SEMI: { tap: ";", shifted: ":" }
+    SQT: { tap: "'", shifted: '"' }
+    COMMA: { tap: ",", shifted: "<" }
+    DOT: { tap: ".", shifted: ">" }
+    FSLH: { tap: "/", shifted: "?" }
+
+    # --- symbol keycodes (lower layer etc.) ---
+    EXCLAMATION: "!"
+    EXCL: "!"
+    AT_SIGN: "@"
+    AT: "@"
+    HASH: "#"
+    POUND: "#"
+    DOLLAR: "$"
+    DLLR: "$"
+    PERCENT: "%"
+    PRCNT: "%"
+    CARET: "^"
+    AMPERSAND: "&"
+    AMPS: "&"
+    ASTERISK: "*"
+    ASTRK: "*"
+    STAR: "*"
+    LEFT_PARENTHESIS: "("
+    LPAR: "("
+    RIGHT_PARENTHESIS: ")"
+    RPAR: ")"
+    PLUS: "+"
+    UNDERSCORE: "_"
+    UNDER: "_"
+    SLASH: "/"
+    QUESTION: "?"
+    QMARK: "?"
+    BACKSLASH: "\\"
+    PIPE: "|"
+    NON_US_BACKSLASH: "\\"
+    PIPE2: "|"
+    NON_US_BSLH: "|"
+    COLON: ":"
+    SINGLE_QUOTE: "'"
+    APOSTROPHE: "'"
+    APOS: "'"
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    LESS_THAN: "<"
+    LT: "<"
+    PERIOD: "."
+    GREATER_THAN: ">"
+    GT: ">"
+    LEFT_BRACKET: "["
+    LEFT_BRACE: "{"
+    LBRC: "{"
+    RIGHT_BRACKET: "]"
+    RIGHT_BRACE: "}"
+    RBRC: "}"
+    TILDE: "~"
+    NON_US_HASH: "#"
+    NUHS: "#"
+    TILDE2: "~"
+
+    # --- common keys ---
+    ESC: "Esc"
+    RET: "Enter"
+    RETURN: "Enter"
+    TAB: "Tab"
+    SPACE: "Space"
+    BSPC: "Bksp"
+    BACKSPACE: "Bksp"
+    DEL: "Del"
+    DELETE: "Del"
+    INS: "Ins"
+    INSERT: "Ins"
+    PSCRN: "PrtSc"
+    PG_UP: "PgUp"
+    PAGE_UP: "PgUp"
+    PG_DN: "PgDn"
+    PAGE_DOWN: "PgDn"
+    UP: "↑"
+    DOWN: "↓"
+    LEFT: "←"
+    RIGHT: "→"
+    LCTRL: "Ctrl"
+    LEFT_CONTROL: "Ctrl"
+    RCTRL: "Ctrl"
+    RIGHT_CONTROL: "Ctrl"
+    LALT: "Alt"
+    LEFT_ALT: "Alt"
+    RALT: "Alt"
+    RIGHT_ALT: "Alt"
+    LSHFT: "Shift"
+    LEFT_SHIFT: "Shift"
+    RSHFT: "Shift"
+    RIGHT_SHIFT: "Shift"
+    LGUI: "Gui"
+    LEFT_GUI: "Gui"
+    RGUI: "Gui"
+    RIGHT_GUI: "Gui"
+    CLCK: "Caps"
+    CAPS: "Caps"
+    CAPSLOCK: "Caps"
+    F1: "F1"
+    F2: "F2"
+    F3: "F3"
+    F4: "F4"
+    F5: "F5"
+    F6: "F6"
+    F7: "F7"
+    F8: "F8"
+    F9: "F9"
+    F10: "F10"
+    F11: "F11"
+    F12: "F12"
+    C_MUTE: "Mute"
+    C_VOL_UP: "Vol+"
+    C_VOL_DN: "Vol-"
+
+  raw_binding_map:
+    "&bt BT_CLR":
+      tap: $$mdi:bluetooth-off$$
+    "&ext_power EP_TOG":
+      tap: $$mdi:power-plug$$
+    "&rgb_ug RGB_TOG":
+      tap: $$mdi:lightbulb$$
+    "&rgb_ug RGB_HUD":
+      tap: $$mdi:palette$$
+    "&rgb_ug RGB_HUI":
+      tap: $$mdi:palette$$
+    "&rgb_ug RGB_SAD":
+      tap: $$mdi:palette-swatch$$
+    "&rgb_ug RGB_SAI":
+      tap: $$mdi:palette-swatch$$
+    "&rgb_ug RGB_EFF":
+      tap: $$mdi:animation$$
+    "&rgb_ug RGB_BRD":
+      tap: $$mdi:brightness-5$$
+    "&rgb_ug RGB_BRI":
+      tap: $$mdi:brightness-7$$
