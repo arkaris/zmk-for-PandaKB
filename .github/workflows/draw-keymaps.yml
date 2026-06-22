@@ -20,4 +20,4 @@ jobs:
       west_config_path: "config"
       output_folder: "keymap-drawer"
       json_path: "config"
-      parse_args: "Sofle:'--layer-names Base Lower Raise Adjust'"
+      parse_args: "Sofle:'--layer-names Base NumFn Sym Setup'"

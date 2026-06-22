@@ -1,172 +1,170 @@
 layout: {zmk_keyboard: Sofle}
 layers:
   Base:
-  - {t: '`', s: '~'}
+  - {t: '`', s: '~', left: ё, right: Ё}
   - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
+  - {t: '2', s: '@', left: '2', right: '"'}
+  - {t: '3', s: '#', left: '3', right: №}
+  - {t: '4', s: $, left: '4', right: ;}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
+  - {t: '6', s: ^, left: '6', right: ':'}
+  - {t: '7', s: '&', left: '7', right: '?'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - ''
+  - {t: \, s: '|', left: \, right: /}
   - Esc
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - Bksp
+  - {t: Q, left: Й}
+  - {t: W, left: Ц}
+  - {t: E, left: У}
+  - {t: R, left: К}
+  - {t: T, left: Е}
+  - {t: Y, left: Н}
+  - {t: U, left: Г}
+  - {t: I, left: Ш}
+  - {t: O, left: Щ}
+  - {t: P, left: З}
+  - {t: ⌫, s: Del}
   - Tab
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - Shift
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - Mute
-  - $$mdi:lightbulb$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - Shift
-  - Gui
+  - {t: A, left: Ф}
+  - {t: S, left: Ы}
+  - {t: D, left: В}
+  - {t: F, left: А}
+  - {t: G, left: П}
+  - {t: H, left: Р}
+  - {t: J, left: О}
+  - {t: K, left: Л}
+  - {t: L, left: Д}
+  - {t: ;, s: ':', left: ж, right: Ж}
+  - {t: '''', s: '"', left: э, right: Э}
+  - ⇧
+  - {t: Z, left: Я}
+  - {t: X, left: Ч}
+  - {t: C, left: С}
+  - {t: V, left: М}
+  - {t: B, left: И}
+  - ''
+  - ''
+  - {t: N, left: Т}
+  - {t: M, left: Ь}
+  - {t: ',', s: <, left: б, right: Б}
+  - {t: ., s: '>', left: ю, right: Ю}
+  - {t: /, s: '?', left: ., right: ','}
+  - ⇧
+  - ⌘
   - Alt
   - Ctrl
-  - Lower
-  - Enter
-  - Space
-  - Raise
-  - Ctrl
-  - Alt
-  - Gui
-  Lower:
+  - {t: Sym, h: Sym}
+  - ↵
+  - ␣
+  - {t: NumFn, h: NumFn}
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
+  - ''
+  - ''
+  NumFn:
+  - ''
+  - ''
+  - F10
+  - F11
+  - F12
+  - ''
+  - {t: ▽, type: trans}
+  - {t: '7', s: '&', left: '7', right: '?'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: ▽, type: trans}
+  - {t: '-', s: _, left: '-'}
+  - ''
+  - ''
   - F7
   - F8
   - F9
-  - F10
-  - F11
-  - {t: '`', s: '~'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
+  - ''
+  - (
+  - {t: '4', s: $, left: '4', right: ;}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '6', s: ^, left: '6', right: ':'}
+  - +
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - F4
+  - F5
+  - F6
+  - ''
+  - )
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@', left: '2', right: '"'}
+  - {t: '3', s: '#', left: '3', right: №}
+  - '*'
+  - {t: '=', s: +, left: '='}
+  - ''
+  - ''
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: '0', s: )}
-  - F12
-  - $$mdi:power-plug$$
-  - '!'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Sym:
+  - {t: '{', left: х, right: Х}
+  - {t: '}', left: ъ, right: Ъ}
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: '`', s: '~', left: ё, right: Ё}
+  - {t: ▽, type: trans}
+  - W◀
+  - Tab◀
+  - Tab▶
+  - W▶
+  - PgDn
+  - {t: ▽, type: trans}
+  - {t: '-', s: _, left: '-'}
+  - {t: '=', s: +, left: '='}
+  - +
   - '@'
   - '#'
   - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: '=', s: +}
-  - {t: '-', s: _}
-  - +
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: ;, s: ':'}
-  - ':'
-  - {t: \, s: '|'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Raise:
-  - $$mdi:bluetooth-off$$
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ins
-  - PrtSc
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - {t: ']', s: '}', left: ъ, right: Ъ}
   - PgUp
+  - END
   - {t: ▽, type: trans}
-  - ↑
+  - Back
   - {t: ▽, type: trans}
-  - {t: '0', s: )}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt
-  - Ctrl
-  - Shift
-  - {t: ▽, type: trans}
-  - Caps
-  - PgDn
+  - {t: ;, s: ':', left: ж, right: Ж}
+  - {t: '[', s: '{', left: х, right: Х}
+  - {t: '''', s: '"', left: э, right: Э}
+  - {t: ',', s: <, left: б, right: Б}
+  - {t: ., s: '>', left: ю, right: Ю}
   - ←
   - ↓
+  - ↑
   - →
-  - Del
-  - Bksp
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - Fwd
+  - {t: /, s: '?', left: ., right: ','}
+  - ^
+  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,29 +177,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Adjust:
-  - $$mdi:bluetooth-off$$
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:power-plug$$
-  - $$mdi:palette$$
-  - $$mdi:palette$$
-  - $$mdi:palette-swatch$$
-  - $$mdi:palette-swatch$$
-  - $$mdi:animation$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Setup:
+  - BT clr
+  - BT 0
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
   - ''
   - ''
   - ''
@@ -209,8 +197,10 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:brightness-5$$
-  - $$mdi:brightness-7$$
+  - ''
+  - Mute
+  - Vol−
+  - Vol+
   - ''
   - ''
   - ''
@@ -220,9 +210,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - ⏪
+  - ⏯
+  - ⏩
   - ''
   - ''
   - ''
@@ -233,14 +223,31 @@ layers:
   - ''
   - ''
   - ''
+  - Bri−
+  - Bri+
   - ''
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [36, 23]
+  k: Del
+  hidden: true
+- p: [49, 23]
+  k: Del
+  hidden: true
