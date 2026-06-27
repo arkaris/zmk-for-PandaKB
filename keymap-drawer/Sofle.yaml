@@ -43,8 +43,8 @@ layers:
   - {t: C, left: С}
   - {t: V, left: М}
   - {t: B, left: И}
-  - ''
-  - ''
+  - Mute
+  - {t: Gui+M, left: Gui+Ь}
   - {t: N, left: Т}
   - {t: M, left: Ь}
   - {t: ',', s: <, left: б, right: Б}
@@ -104,8 +104,8 @@ layers:
   - F2
   - F3
   - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - {t: '0', s: )}
   - {t: ▽, type: trans}
@@ -226,8 +226,8 @@ layers:
   - Bri−
   - Bri+
   - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
