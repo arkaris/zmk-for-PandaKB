@@ -54,10 +54,10 @@ layers:
   - Ctrl
   - Alt
   - ⌘
+  - NumFn
+  - ␣
+  - ␣
   - {t: Sym, h: Sym}
-  - ␣
-  - ␣
-  - {t: NumFn, h: NumFn}
   - ''
   - ''
   - ''
@@ -69,41 +69,102 @@ layers:
   - F12
   - ''
   - {t: ▽, type: trans}
-  - {t: '7', s: '&', left: '7', right: '?'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
   - {t: ▽, type: trans}
-  - {t: '-', s: _, left: '-'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - F7
   - F8
   - F9
   - ''
-  - (
-  - {t: '4', s: $, left: '4', right: ;}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^, left: '6', right: ':'}
-  - +
-  - {t: ▽, type: trans}
+  - HOME
+  - W◀
+  - W▶
+  - END
+  - PgUp
+  - Fwd
   - ''
   - ''
   - F4
   - F5
   - F6
   - ''
-  - )
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@', left: '2', right: '"'}
-  - {t: '3', s: '#', left: '3', right: №}
-  - '*'
-  - {t: '=', s: +, left: '='}
+  - ←
+  - ↓
+  - ↑
+  - →
+  - PgDn
+  - Back
   - ''
   - ''
   - F1
   - F2
   - F3
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '[', s: '{', left: х, right: Х}
+  - {t: ']', s: '}', left: ъ, right: Ъ}
+  - Tab◀
+  - Tab▶
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ↵
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Sym:
+  - {t: '{', left: х, right: Х}
+  - {t: '}', left: ъ, right: Ъ}
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '7', s: '&', left: '7', right: '?'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: ▽, type: trans}
+  - {t: '-', s: _, left: '-'}
+  - {t: '-', s: _, left: '-'}
+  - {t: '=', s: +, left: '='}
+  - +
+  - '@'
+  - '#'
+  - $
+  - (
+  - {t: '4', s: $, left: '4', right: ;}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^, left: '6', right: ':'}
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - )
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@', left: '2', right: '"'}
+  - {t: '3', s: '#', left: '3', right: №}
+  - '*'
+  - {t: '=', s: +, left: '='}
+  - {t: ▽, type: trans}
+  - ^
+  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -118,67 +179,6 @@ layers:
   - {t: ▽, type: trans}
   - ↵
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Sym:
-  - {t: '{', left: х, right: Х}
-  - {t: '}', left: ъ, right: Ъ}
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '-', s: _, left: '-'}
-  - {t: '=', s: +, left: '='}
-  - +
-  - '@'
-  - '#'
-  - $
-  - HOME
-  - W◀
-  - W▶
-  - END
-  - PgUp
-  - Fwd
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - ↑
-  - →
-  - PgDn
-  - Back
-  - {t: ▽, type: trans}
-  - ^
-  - '&'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '[', s: '{', left: х, right: Х}
-  - {t: ']', s: '}', left: ъ, right: Ъ}
-  - Tab◀
-  - Tab▶
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ↵
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -237,7 +237,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - {t: ▽, type: trans}
