@@ -184,6 +184,8 @@ parse_config:
     C_BRI_DN: "Bri−"
 
   raw_binding_map:
+    "&kp LC(UP)":
+      tap: "Win"
     "&kp LG(LBKT)":
       tap: "Back"
     "&kp LG(RBKT)":
