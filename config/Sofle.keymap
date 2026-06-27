@@ -70,11 +70,11 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-&kp LBRC  &kp RBRC  &kp PIPE  &trans    &kp GRAVE &trans                                      &kp LA(LEFT) &kp LG(LA(LEFT)) &kp LG(LA(RIGHT)) &kp LA(RIGHT) &kp PG_DN &trans
-&kp MINUS &kp EQUAL &kp PLUS  &kp AT    &kp HASH  &kp DLLR                                    &kp HOME &kp RBKT &kp PG_UP &kp END  &trans   &kp LG(LBKT)
-&trans    &kp SEMI  &kp LBKT  &kp SQT   &kp COMMA &kp DOT                                     &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans  &kp LG(RBKT)
-&kp FSLH   &kp CARET &kp AMPS  &trans    &trans    &kp TILDE     &trans &trans                &trans  &trans   &trans    &trans   &trans   &trans
-                  &trans    &trans    &trans    &trans    &trans               &trans    &trans    &trans    &trans    &trans
+&kp LBRC  &kp RBRC  &kp PIPE  &trans    &kp GRAVE &trans                                      &trans     &trans           &trans            &trans     &trans    &trans
+&kp MINUS &kp EQUAL &kp PLUS  &kp AT    &kp HASH  &kp DLLR                                    &kp HOME   &kp LA(LEFT)     &kp LA(RIGHT)     &kp END    &kp PG_UP &kp LG(RBKT)
+&trans    &kp SEMI  &trans    &kp SQT   &kp COMMA &kp DOT                                     &kp LEFT   &kp DOWN         &kp UP            &kp RIGHT  &kp PG_DN &kp LG(LBKT)
+&kp FSLH   &kp CARET &kp AMPS  &trans    &trans    &kp TILDE     &trans &trans                &kp LBKT   &kp RBKT         &kp LG(LA(LEFT))  &kp LG(LA(RIGHT)) &trans    &trans
+                  &trans    &trans    &trans    &trans    &trans               &kp RET    &trans    &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
