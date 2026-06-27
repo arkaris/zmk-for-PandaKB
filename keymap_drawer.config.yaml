@@ -184,12 +184,6 @@ parse_config:
     C_BRI_DN: "Bri−"
 
   raw_binding_map:
-    "&mo NUMFN":
-      tap: "NumFn"
-      hold: "NumFn"
-    "&mo SYM":
-      tap: "Sym"
-      hold: "Sym"
     "&kp LG(LBKT)":
       tap: "Back"
     "&kp LG(RBKT)":
