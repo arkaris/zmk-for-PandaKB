@@ -47,11 +47,11 @@
 &kp GRAVE &kp N1   &kp N2   &kp N3   &kp N4    &kp N5                                     &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &kp BSLH
 &kp ESC   &kp Q    &kp W    &kp E    &kp R     &kp T                                      &kp Y  &kp U     &kp I     &kp O    &kp P    &kp BSPC
 &kp TAB   &kp A    &kp S    &kp D    &kp F     &kp G                                      &kp H  &kp J     &kp K     &kp L    &kp SEMI &kp SQT
-&kp LSHFT &kp Z    &kp X    &kp C    &kp V     &kp B      &none  &none                    &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+&kp LSHFT &kp Z    &kp X    &kp C    &kp V     &kp B      &kp C_MUTE &kp LG(M)              &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                   &kp LCTRL &kp LALT &kp LGUI &mo SYM  &kp SPACE              &kp SPACE  &mo NUMFN &none    &none     &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
         numfn_layer {
@@ -60,11 +60,11 @@
 &none     &none     &kp F10   &kp F11   &kp F12   &none                                      &trans    &kp N7    &kp N8    &kp N9    &trans    &kp MINUS
 &none     &none     &kp F7    &kp F8    &kp F9    &none                                      &kp LPAR  &kp N4    &kp N5    &kp N6    &kp PLUS  &trans
 &none     &none     &kp F4    &kp F5    &kp F6    &none                                      &kp RPAR  &kp N1    &kp N2    &kp N3    &kp ASTRK &kp EQUAL
-&none     &none     &kp F1    &kp F2    &kp F3    &none      &none &none                    &none     &kp N0    &trans    &trans    &trans    &trans
+&none     &none     &kp F1    &kp F2    &kp F3    &none      &trans &trans                  &none     &kp N0    &trans    &trans    &trans    &trans
                   &trans    &trans    &trans    &trans    &kp RET               &none    &trans    &trans    &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
         sym_layer {
@@ -77,7 +77,7 @@
                   &trans    &trans    &trans    &trans    &none                &kp RET    &trans    &trans    &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
         setup_layer {
@@ -86,11 +86,11 @@
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &none &none &none &none &none &none
 &none     &none       &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none                              &none &none &none &none &none &none
 &none     &none       &kp C_RW   &kp C_PP     &kp C_FF     &none                              &none &none &none &none &none &none
-&none     &none       &none     &kp C_BRI_DN &kp C_BRI_UP &none      &none &none            &none &none &none &none &none &none
+&none     &none       &none     &kp C_BRI_DN &kp C_BRI_UP &none      &trans &trans          &none &none &none &none &none &none
                   &trans    &trans    &trans    &trans    &none                &none    &trans    &trans    &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
         extra1 {
