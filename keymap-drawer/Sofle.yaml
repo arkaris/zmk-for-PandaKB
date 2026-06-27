@@ -51,14 +51,14 @@ layers:
   - {t: ., s: '>', left: ю, right: Ю}
   - {t: /, s: '?', left: ., right: ','}
   - ⇧
-  - ⌘
-  - Alt
   - Ctrl
+  - Alt
+  - ⌘
   - {t: Sym, h: Sym}
-  - ↵
+  - ␣
   - ␣
   - {t: NumFn, h: NumFn}
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   NumFn:
@@ -116,8 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ↵
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,13 +127,13 @@ layers:
   - {t: '}', left: ъ, right: Ъ}
   - '|'
   - {t: ▽, type: trans}
-  - {t: '`', s: '~', left: ё, right: Ё}
   - {t: ▽, type: trans}
-  - W◀
-  - Tab◀
-  - Tab▶
-  - W▶
-  - PgDn
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '-', s: _, left: '-'}
   - {t: '=', s: +, left: '='}
@@ -142,24 +142,24 @@ layers:
   - '#'
   - $
   - HOME
-  - {t: ']', s: '}', left: ъ, right: Ъ}
-  - PgUp
+  - W◀
+  - W▶
   - END
+  - PgUp
+  - Fwd
   - {t: ▽, type: trans}
-  - Back
   - {t: ▽, type: trans}
-  - {t: ;, s: ':', left: ж, right: Ж}
-  - {t: '[', s: '{', left: х, right: Х}
-  - {t: '''', s: '"', left: э, right: Э}
-  - {t: ',', s: <, left: б, right: Б}
-  - {t: ., s: '>', left: ю, right: Ю}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ←
   - ↓
   - ↑
   - →
+  - PgDn
+  - Back
   - {t: ▽, type: trans}
-  - Fwd
-  - {t: /, s: '?', left: ., right: ','}
   - ^
   - '&'
   - {t: ▽, type: trans}
@@ -167,18 +167,18 @@ layers:
   - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '[', s: '{', left: х, right: Х}
+  - {t: ']', s: '}', left: ъ, right: Ъ}
+  - Tab◀
+  - Tab▶
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ↵
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,8 +238,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
