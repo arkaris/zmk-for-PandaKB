@@ -657,7 +657,9 @@ text.left {
 </g>
 <g transform="translate(317, 274) rotate(23.0)" class="key held keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-</g>
+<a href="#Nav">
+<text x="0" y="0" class="key held tap layer-activator">Nav</text>
+</a></g>
 <g transform="translate(379, 288) rotate(30.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 </g>
@@ -942,7 +944,9 @@ text.left {
 </g>
 <g transform="translate(552, 274) rotate(-23.0)" class="key held keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-</g>
+<a href="#Sym">
+<text x="0" y="0" class="key held tap layer-activator">Sym</text>
+</a></g>
 <g transform="translate(617, 260)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
