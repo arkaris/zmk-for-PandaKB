@@ -368,8 +368,7 @@ text.left {
 </g>
 <g transform="translate(498, 209)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+M</text>
-<text x="-24" y="0" class="key left">Gui+Ь</text>
+<text x="0" y="0" class="key tap">Win</text>
 </g>
 <g transform="translate(561, 211)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

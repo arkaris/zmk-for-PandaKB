@@ -44,7 +44,7 @@ layers:
   - {t: V, left: М}
   - {t: B, left: И}
   - Mute
-  - {t: Gui+M, left: Gui+Ь}
+  - Win
   - {t: N, left: Т}
   - {t: M, left: Ь}
   - {t: ',', s: <, left: б, right: Б}
