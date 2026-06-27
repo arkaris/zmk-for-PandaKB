@@ -54,14 +54,14 @@ layers:
   - Ctrl
   - Alt
   - ⌘
-  - NumFn
+  - Nav
   - ␣
   - ␣
-  - {t: Sym, h: Sym}
+  - Sym
   - ''
   - ''
   - ''
-  NumFn:
+  Nav:
   - ''
   - ''
   - F10
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - ↵
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,7 +240,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
