@@ -1,18 +1,18 @@
 layout: {zmk_keyboard: Sofle}
 layers:
   Base:
-  - {t: '`', s: '~', left: ё, right: Ё}
+  - {t: '`', s: '~', left: ё, tl: Ё}
   - {t: '1', s: '!'}
-  - {t: '2', s: '@', left: '2', right: '"'}
-  - {t: '3', s: '#', left: '3', right: №}
-  - {t: '4', s: $, left: '4', right: ;}
+  - {t: '2', s: '@', tl: '"'}
+  - {t: '3', s: '#', tl: №}
+  - {t: '4', s: $, tl: ;}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^, left: '6', right: ':'}
-  - {t: '7', s: '&', left: '7', right: '?'}
+  - {t: '6', s: ^, tl: ':'}
+  - {t: '7', s: '&', tl: '?'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: \, s: '|', left: \, right: /}
+  - {t: \, s: '|', tl: /}
   - Esc
   - {t: Q, left: Й}
   - {t: W, left: Ц}
@@ -35,8 +35,8 @@ layers:
   - {t: J, left: О}
   - {t: K, left: Л}
   - {t: L, left: Д}
-  - {t: ;, s: ':', left: ж, right: Ж}
-  - {t: '''', s: '"', left: э, right: Э}
+  - {t: ;, s: ':', left: ж, tl: Ж}
+  - {t: '''', s: '"', left: э, tl: Э}
   - ⇧
   - {t: Z, left: Я}
   - {t: X, left: Ч}
@@ -47,9 +47,9 @@ layers:
   - Win
   - {t: N, left: Т}
   - {t: M, left: Ь}
-  - {t: ',', s: <, left: б, right: Б}
-  - {t: ., s: '>', left: ю, right: Ю}
-  - {t: /, s: '?', left: ., right: ','}
+  - {t: ',', s: <, left: б, tl: Б}
+  - {t: ., s: '>', left: ю, tl: Ю}
+  - {t: /, s: '?', left: ., tl: ','}
   - ⇧
   - Ctrl
   - Alt
@@ -98,7 +98,7 @@ layers:
   - →
   - PgDn
   - Back
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - F1
   - F2
@@ -106,8 +106,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '[', s: '{', left: х, right: Х}
-  - {t: ']', s: '}', left: ъ, right: Ъ}
+  - {t: '[', s: '{', left: х, tl: Х}
+  - {t: ']', s: '}', left: ъ, tl: Ъ}
   - Tab◀
   - Tab▶
   - {t: ▽, type: trans}
@@ -123,28 +123,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
-  - {t: '{', left: х, right: Х}
-  - {t: '}', left: ъ, right: Ъ}
+  - '{'
+  - '}'
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '7', s: '&', left: '7', right: '?'}
+  - {t: '7', s: '&', tl: '?'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: ▽, type: trans}
-  - {t: '-', s: _, left: '-'}
-  - {t: '-', s: _, left: '-'}
-  - {t: '=', s: +, left: '='}
+  - {t: '-', s: _}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - +
   - '@'
   - '#'
   - $
   - (
-  - {t: '4', s: $, left: '4', right: ;}
+  - {t: '4', s: $, tl: ;}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^, left: '6', right: ':'}
+  - {t: '6', s: ^, tl: ':'}
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,10 +155,10 @@ layers:
   - {t: ▽, type: trans}
   - )
   - {t: '1', s: '!'}
-  - {t: '2', s: '@', left: '2', right: '"'}
-  - {t: '3', s: '#', left: '3', right: №}
+  - {t: '2', s: '@', tl: '"'}
+  - {t: '3', s: '#', tl: №}
   - '*'
-  - {t: '=', s: +, left: '='}
+  - {t: '=', s: +}
   - {t: ▽, type: trans}
   - ^
   - '&'
