@@ -24,7 +24,7 @@ layers:
   - {t: I, left: Ш}
   - {t: O, left: Щ}
   - {t: P, left: З}
-  - {t: ⌫, s: Del}
+  - ⌫
   - Tab
   - {t: A, left: Ф}
   - {t: S, left: Ы}
@@ -36,15 +36,15 @@ layers:
   - {t: K, left: Л}
   - {t: L, left: Д}
   - {t: ;, s: ':', left: ж, tl: Ж}
-  - {t: '''', s: '"', left: э, tl: Э}
+  - ↵
   - ⇧
   - {t: Z, left: Я}
   - {t: X, left: Ч}
   - {t: C, left: С}
   - {t: V, left: М}
   - {t: B, left: И}
-  - Mute
-  - Win
+  - {t: Mute, h: Vol−, s: Vol+}
+  - {t: Win, h: Bri−, s: Bri+}
   - {t: N, left: Т}
   - {t: M, left: Ь}
   - {t: ',', s: <, left: б, tl: Б}
@@ -64,64 +64,64 @@ layers:
   Nav:
   - ''
   - ''
-  - F10
-  - F11
-  - F12
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - F7
-  - F8
-  - F9
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - HOME
   - W◀
   - W▶
   - END
   - PgUp
-  - Fwd
-  - ''
-  - ''
-  - F4
-  - F5
+  - Del
+  - {t: ▽, type: trans}
   - F6
-  - ''
+  - F7
+  - F8
+  - F9
+  - F10
   - ←
   - ↓
   - ↑
   - →
   - PgDn
-  - Back
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - F1
-  - F2
-  - F3
   - ''
+  - ''
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '[', s: '{', left: х, tl: Х}
-  - {t: ']', s: '}', left: ъ, tl: Ъ}
   - Tab◀
   - Tab▶
-  - {t: ▽, type: trans}
+  - {t: '[', s: '{', left: х, tl: Х}
+  - {t: ']', s: '}', left: ъ, tl: Ъ}
+  - {t: '''', s: '"', left: э, tl: Э}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Nav, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  - ↵
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   Sym:
   - '{'
   - '}'
@@ -129,11 +129,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '6', s: ^, tl: ':'}
   - {t: '7', s: '&', tl: '?'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: ▽, type: trans}
+  - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -146,7 +146,7 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^, tl: ':'}
   - +
-  - {t: ▽, type: trans}
+  - Del
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,12 +177,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↵
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Sym, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   Setup:
   - BT clr
   - BT 0
@@ -198,7 +198,7 @@ layers:
   - ''
   - ''
   - ''
-  - Mute
+  - {t: Mute, h: Vol−, s: Vol+}
   - Vol−
   - Vol+
   - ''
@@ -244,10 +244,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-combos:
-- p: [36, 23]
-  k: Del
-  hidden: true
-- p: [49, 23]
-  k: Del
-  hidden: true
