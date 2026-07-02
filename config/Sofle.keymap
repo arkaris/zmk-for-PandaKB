@@ -61,7 +61,7 @@
 &trans    &none     &kp F7    &kp F8    &kp F9    &none                                      &kp HOME   &kp LA(LEFT)     &kp LA(RIGHT)     &kp END    &kp PG_UP &kp LG(RBKT)
 &trans    &none     &kp F4    &kp F5    &kp F6    &none                                      &kp LEFT   &kp DOWN         &kp UP            &kp RIGHT  &kp PG_DN &kp LG(LBKT)
 &trans    &none     &kp F1    &kp F2    &kp F3    &none      &trans &trans                  &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &kp LBKT  &kp RBKT  &kp SINGLE_QUOTE  &trans
-                  &trans    &trans    &trans    &mo NAV &trans                &trans    &none     &none     &none
+                  &trans    &trans    &trans    &mo NAV &trans              &trans    &trans    &none     &none     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRI_DN C_BRI_UP>;
