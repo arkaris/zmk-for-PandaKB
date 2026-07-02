@@ -36,7 +36,7 @@ layers:
   - {t: K, left: Л}
   - {t: L, left: Д}
   - {t: ;, s: ':', left: ж, tl: Ж}
-  - {t: '''', s: '"', left: э, tl: Э}
+  - ↵
   - ⇧
   - {t: Z, left: Я}
   - {t: X, left: Ч}
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - F7
   - F8
@@ -86,7 +86,7 @@ layers:
   - END
   - PgUp
   - Fwd
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - F4
   - F5
@@ -106,22 +106,22 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '[', s: '{', left: х, tl: Х}
-  - {t: ']', s: '}', left: ъ, tl: Ъ}
   - Tab◀
   - Tab▶
-  - {t: ▽, type: trans}
+  - {t: '[', s: '{', left: х, tl: Х}
+  - {t: ']', s: '}', left: ъ, tl: Ъ}
+  - {t: '''', s: '"', left: э, tl: Э}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Nav, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  - ↵
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   Sym:
   - '{'
   - '}'
@@ -129,11 +129,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '6', s: ^, tl: ':'}
   - {t: '7', s: '&', tl: '?'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: ▽, type: trans}
+  - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -177,12 +177,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↵
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Sym, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   Setup:
   - BT clr
   - BT 0
