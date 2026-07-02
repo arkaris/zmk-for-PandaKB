@@ -355,10 +355,14 @@ text.left, text.tl {
 <g transform="translate(371, 209)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Mute</text>
+<text x="0" y="24" class="key hold">Vol−</text>
+<text x="0" y="-24" class="key shifted">Vol+</text>
 </g>
 <g transform="translate(498, 209)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Win</text>
+<text x="0" y="24" class="key hold">Bri−</text>
+<text x="0" y="-24" class="key shifted">Bri+</text>
 </g>
 <g transform="translate(561, 211)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1003,6 +1007,8 @@ text.left, text.tl {
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Mute</text>
+<text x="0" y="24" class="key hold">Vol−</text>
+<text x="0" y="-24" class="key shifted">Vol+</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
