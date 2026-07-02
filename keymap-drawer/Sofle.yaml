@@ -64,22 +64,22 @@ layers:
   Nav:
   - ''
   - ''
-  - F10
-  - F11
-  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - F7
-  - F8
-  - F9
-  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - HOME
   - W◀
   - W▶
@@ -87,23 +87,23 @@ layers:
   - PgUp
   - Del
   - {t: ▽, type: trans}
-  - ''
-  - F4
-  - F5
   - F6
-  - ''
+  - F7
+  - F8
+  - F9
+  - F10
   - ←
   - ↓
   - ↑
   - →
   - PgDn
-  - Back
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - F1
-  - F2
-  - F3
   - ''
+  - ''
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Tab◀
