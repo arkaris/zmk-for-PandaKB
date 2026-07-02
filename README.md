@@ -6,5 +6,4 @@
 
 Описание решений по раскладке: [`config/KEYMAP.md`](config/KEYMAP.md).
 
-После первого push в ветку `keymap-drawer` GitHub Actions создаст `keymap-drawer/Sofle.svg` и закоммитит его.
-
+После push GitHub Actions обновит `keymap-drawer/Sofle.svg`.

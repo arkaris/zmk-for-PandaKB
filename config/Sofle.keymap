@@ -14,22 +14,6 @@
 #define SETUP 3
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        del_lshift_bspc {
-            timeout-ms = <50>;
-            key-positions = <36 23>;
-            bindings = <&kp DEL>;
-        };
-
-        del_rshift_bspc {
-            timeout-ms = <50>;
-            key-positions = <49 23>;
-            bindings = <&kp DEL>;
-        };
-    };
-
     conditional_layers {
         compatible = "zmk,conditional-layers";
         setup_layer {
@@ -58,7 +42,7 @@
             display-name = "Nav";
             bindings = <
 &none     &none     &kp F10   &kp F11   &kp F12   &none                                      &trans     &trans           &trans            &trans     &trans    &trans
-&trans    &none     &kp F7    &kp F8    &kp F9    &none                                      &kp HOME   &kp LA(LEFT)     &kp LA(RIGHT)     &kp END    &kp PG_UP &kp LG(RBKT)
+&trans    &none     &kp F7    &kp F8    &kp F9    &none                                      &kp HOME   &kp LA(LEFT)     &kp LA(RIGHT)     &kp END    &kp PG_UP &kp DEL
 &trans    &none     &kp F4    &kp F5    &kp F6    &none                                      &kp LEFT   &kp DOWN         &kp UP            &kp RIGHT  &kp PG_DN &kp LG(LBKT)
 &trans    &none     &kp F1    &kp F2    &kp F3    &none      &trans &trans                  &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &kp LBKT  &kp RBKT  &kp SINGLE_QUOTE  &trans
                   &trans    &trans    &trans    &mo NAV &trans              &trans    &trans    &none     &none     &none
@@ -71,7 +55,7 @@
             display-name = "Sym";
             bindings = <
 &kp LBRC  &kp RBRC  &kp PIPE  &trans    &trans    &trans                                      &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS
-&kp MINUS &kp EQUAL &kp PLUS  &kp AT_SIGN &kp HASH  &kp DOLLAR                                  &kp LPAR  &kp N4    &kp N5    &kp N6    &kp PLUS  &trans
+&kp MINUS &kp EQUAL &kp PLUS  &kp AT_SIGN &kp HASH  &kp DOLLAR                                  &kp LPAR  &kp N4    &kp N5    &kp N6    &kp PLUS  &kp DEL
 &trans    &trans    &trans    &trans    &trans    &trans                                      &kp RPAR  &kp N1    &kp N2    &kp N3    &kp ASTERISK &kp EQUAL
 &trans    &kp CARET &kp AMPS &trans    &trans    &kp TILDE     &trans &trans                &none     &kp N0    &trans    &trans    &trans    &trans
                   &trans    &trans    &trans    &trans    &trans               &trans    &mo SYM &none     &none     &none

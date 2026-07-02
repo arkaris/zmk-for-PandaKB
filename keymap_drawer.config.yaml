@@ -2,7 +2,7 @@ draw_config:
   n_columns: 1
   split_gap: 30.0
   append_colon_to_layer_header: true
-  footer_text: "EN center · RU left · Shift: EN top / RU top-left · Del = Shift+Bksp"
+  footer_text: "EN center · RU left · Shift: EN top / RU top-left · Del on Nav/Sym (Bksp key)"
   svg_extra_style: |
     text.left, text.tl {
       font-size: 11px;
@@ -16,11 +16,6 @@ draw_config:
 
 parse_config:
   mark_alternate_layer_activators: true
-  zmk_combos:
-    del_lshift_bspc:
-      hidden: true
-    del_rshift_bspc:
-      hidden: true
   trans_legend:
     tap: ▽
     type: trans
@@ -102,7 +97,7 @@ parse_config:
     RETURN: "↵"
     TAB: "Tab"
     SPACE: "␣"
-    BACKSPACE: { tap: "⌫", shifted: "Del" }
+    BACKSPACE: "⌫"
     DEL: "Del"
     PG_UP: "PgUp"
     PG_DN: "PgDn"
