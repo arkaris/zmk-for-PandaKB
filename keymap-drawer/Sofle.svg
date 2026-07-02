@@ -262,7 +262,6 @@ text.left, text.tl {
 <g transform="translate(841, 118)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⌫</text>
-<text x="0" y="-24" class="key shifted">Del</text>
 </g>
 <g transform="translate(28, 174)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -529,7 +528,7 @@ text.left, text.tl {
 </g>
 <g transform="translate(841, 118)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Fwd</text>
+<text x="0" y="0" class="key tap">Del</text>
 </g>
 <g transform="translate(28, 174)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -790,9 +789,9 @@ text.left, text.tl {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">+</text>
 </g>
-<g transform="translate(841, 118)" class="key trans keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(841, 118)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Del</text>
 </g>
 <g transform="translate(28, 174)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1163,4 +1162,4 @@ text.left, text.tl {
 </g>
 </g>
 </g>
-<text x="899.0" y="1607.0" class="footer">EN center · RU left · Shift: EN top / RU top-left · Del = Shift+Bksp</text></svg>
+<text x="899.0" y="1607.0" class="footer">EN center · RU left · Shift: EN top / RU top-left · Del on Nav/Sym (Bksp key)</text></svg>

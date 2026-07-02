@@ -24,7 +24,7 @@ layers:
   - {t: I, left: Ш}
   - {t: O, left: Щ}
   - {t: P, left: З}
-  - {t: ⌫, s: Del}
+  - ⌫
   - Tab
   - {t: A, left: Ф}
   - {t: S, left: Ы}
@@ -85,7 +85,7 @@ layers:
   - W▶
   - END
   - PgUp
-  - Fwd
+  - Del
   - {t: ▽, type: trans}
   - ''
   - F4
@@ -146,7 +146,7 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^, tl: ':'}
   - +
-  - {t: ▽, type: trans}
+  - Del
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -244,10 +244,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-combos:
-- p: [36, 23]
-  k: Del
-  hidden: true
-- p: [49, 23]
-  k: Del
-  hidden: true
